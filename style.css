@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; */
+  /*10 px/16 px = 0.625 = 62.5% = Percentace of user browser font size setting*/
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(111, 107, 66);
+  font-family: "Syncopate", sans-serif;
+}
+
+.úvodka {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  transition: transform 3s ease-in-out;
+  transform: translateY(-100rem);
+}
+.úvodka-img {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  position: absolute;
+  font-size: 2rem;
+  top: 10%;
+  left: 10%;
+  color: rgb(40, 66, 40);
+  letter-spacing: 0.4rem;
+}
+
+.info {
+  background-color: rgba(40, 66, 40, 0.323);
+  color: rgb(138, 202, 140);
+  padding: 0.8rem 2rem;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 8%;
+  right: 10%;
+}
+
+.divInfo {
+  width: 50rem;
+  height: 32rem;
+  background-color: rgba(40, 66, 40, 0.323);
+  color: rgb(138, 202, 140);
+  border-radius: 1rem;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  transition: transform 1s ease-out;
+  transform: translateX(80rem);
+  opacity: 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(123, 119, 10);
+}
+
+.box-Persp {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-image {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-image2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
